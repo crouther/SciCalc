@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Calc - Basic</string>
+    <string name="request">Request</string>
+    <string name="answer">Answer</string>
+    <string name="app_logo">App Logo</string>
+</resources>
