@@ -3,4 +3,18 @@
     <string name="request">Request</string>
     <string name="answer">Answer</string>
     <string name="app_logo">App Logo</string>
+    <string name="f_d"><![CDATA[F <> D]]></string>
+    <string name="dms"><![CDATA[>DMS]]></string>
+    <string name="r_pr"><![CDATA[R>Pr]]></string>
+    <string name="r_p"><![CDATA[R>Pθ]]></string>
+    <string name="p_ry"><![CDATA[P>Ry]]></string>
+    <string name="p_rx"><![CDATA[P>Rx]]></string>
+    <string name="degree">°</string>
+    <string name="seconds">\"</string>
+    <string name="x_1">x<sup>-1</sup></string>
+    <string name="x_2">x<sup>2</sup></string>
+    <string name="ten_x">10<sup>x</sup></string>
+    <string name="e_x">e<sup>x</sup></string>
+    <string name="x_sqrt"><sup>x</sup>√</string>
+    <string name="a_b_c">A<sup>b/c</sup></string>
 </resources>
