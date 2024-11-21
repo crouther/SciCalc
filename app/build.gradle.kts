@@ -1,5 +1,5 @@
 plugins {
-    alias(libs.plugins.android.application)
+    alias(libs.plugins.androidApplication)
 }
 
 android {
@@ -32,7 +32,8 @@ android {
 }
 
 dependencies {
-
+    implementation (libs.opencsv)
+    implementation (libs.commons.math3)
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)

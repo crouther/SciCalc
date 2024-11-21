@@ -17,4 +17,6 @@
     <string name="e_x">e<sup>x</sup></string>
     <string name="x_sqrt"><sup>x</sup>√</string>
     <string name="a_b_c">A<sup>b/c</sup></string>
+    <string name="parenthesis_syntax_error">Parenthesis Syntax Error</string>
+    <string name="syntax_error">Syntax Error</string>
 </resources>

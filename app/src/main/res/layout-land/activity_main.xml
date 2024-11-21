@@ -643,6 +643,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="A"
+                android:id="@+id/a"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -654,6 +655,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="B"
+                android:id="@+id/b"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -665,6 +667,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="C"
+                android:id="@+id/c"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -676,6 +679,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="D"
+                android:id="@+id/d"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -687,6 +691,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="F"
+                android:id="@+id/f"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -775,6 +780,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="STO"
+                android:id="@+id/sto"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -786,6 +792,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="RCL"
+                android:id="@+id/rcl"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -797,6 +804,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="MVAR"
+                android:id="@+id/mvar"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -808,6 +816,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="CLRVAR"
+                android:id="@+id/reset"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -844,6 +853,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="DEG"
+                android:id="@+id/deg"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -855,6 +865,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="RAD"
+                android:id="@+id/rad"
                     android:textAllCaps="false"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
@@ -867,6 +878,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="GRAD"
+                android:id="@+id/grad"
                     android:textAllCaps="false"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
@@ -901,6 +913,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="FLO"
+                android:id="@+id/flo"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -912,6 +925,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="SCI"
+                android:id="@+id/sci"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -923,6 +937,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="ENG"
+                android:id="@+id/eng"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
