@@ -55,19 +55,15 @@
                 android:textSize="25sp" />
         </LinearLayout>
 
-        <LinearLayout
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:contentDescription="@string/app_logo"
-                android:src="@drawable/android" />
-
-        </LinearLayout>
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-8008847500238019/7384365722">
+        </com.google.android.gms.ads.AdView>
 
         <!-- Blank Rows -->
 
@@ -222,6 +218,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="ANS"
+                android:id="@+id/ans"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
                 tools:ignore="ButtonStyle,HardcodedText" />
@@ -233,6 +230,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="@string/a_b_c"
+                android:id="@+id/abcde"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -245,6 +243,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="»d/e"
+                android:id="@+id/de"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
                 tools:ignore="ButtonStyle,HardcodedText" />
@@ -256,6 +255,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="@string/f_d"
+                android:id="@+id/fracDec"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
                 tools:ignore="ButtonStyle,HardcodedText" />
@@ -266,7 +266,8 @@
                 android:layout_weight="1"
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
-                android:text="K"
+                android:text="%"
+                android:id="@+id/percentage"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
                 tools:ignore="ButtonStyle,HardcodedText" />
@@ -362,6 +363,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="@string/dms"
+                android:id="@+id/dms"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
                 tools:ignore="ButtonStyle,HardcodedText" />
@@ -373,6 +375,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="@string/r_pr"
+                android:id="@+id/rpr"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -385,6 +388,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="@string/r_p"
+                android:id="@+id/rpo"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
                 tools:ignore="ButtonStyle,HardcodedText" />
@@ -396,6 +400,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="@string/p_rx"
+                android:id="@+id/prx"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -408,6 +413,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="@string/p_ry"
+                android:id="@+id/pry"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -431,6 +437,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="@string/degree"
+                android:id="@+id/degree"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
                 tools:ignore="ButtonStyle,HardcodedText" />
@@ -442,6 +449,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="'"
+                android:id="@+id/minute"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
                 tools:ignore="ButtonStyle,HardcodedText" />
@@ -453,6 +461,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="@string/seconds"
+                android:id="@+id/second"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
                 tools:ignore="ButtonStyle,HardcodedText" />
@@ -464,6 +473,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="ʀ"
+                android:id="@+id/radian"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
                 tools:ignore="ButtonStyle,HardcodedText" />
@@ -475,6 +485,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="Ⓖ"
+                android:id="@+id/gradian"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
                 tools:ignore="ButtonStyle,HardcodedText" />
@@ -499,6 +510,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="@string/ten_x"
+                android:id="@+id/tenx"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -511,6 +523,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="@string/e_x"
+                android:id="@+id/e2x"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -523,6 +536,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="√"
+                android:id="@+id/sqrt"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
                 tools:ignore="ButtonStyle,HardcodedText" />
@@ -534,6 +548,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="@string/x_sqrt"
+                android:id="@+id/xsqrt"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -546,6 +561,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="∊"
+                android:id="@+id/ee"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -569,6 +585,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="log"
+                android:id="@+id/log"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -581,6 +598,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="ln"
+                android:id="@+id/ln"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -593,6 +611,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="@string/x_2"
+                android:id="@+id/xPow2"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -605,6 +624,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="^"
+                android:id="@+id/tothe"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
                 tools:ignore="ButtonStyle,HardcodedText" />
@@ -616,6 +636,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="@string/x_1"
+                android:id="@+id/inv"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -899,7 +920,8 @@
                 android:layout_weight="1"
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
-                android:text="#.##"
+                android:text="K"
+                android:id="@+id/k"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
                 tools:ignore="ButtonStyle,HardcodedText" />
@@ -1026,6 +1048,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="nPr"
+                android:id="@+id/npr"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -1038,6 +1061,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="nCr"
+                android:id="@+id/ncr"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -1050,6 +1074,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="!"
+                android:id="@+id/exclamation"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -1062,6 +1087,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="rand"
+                android:id="@+id/rand"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -1074,6 +1100,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="randi"
+                android:id="@+id/randi"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -1099,6 +1126,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="HYP"
+                android:id="@+id/HYP"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -1111,6 +1139,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="asin"
+                android:id="@+id/asin"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -1123,6 +1152,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="acos"
+                android:id="@+id/acos"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -1135,6 +1165,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="atan"
+                android:id="@+id/atan"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -1158,6 +1189,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="π"
+                android:id="@+id/pi"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -1170,6 +1202,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="sin"
+                android:id="@+id/sin"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -1182,6 +1215,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="cos"
+                android:id="@+id/cos"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -1194,6 +1228,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="tan"
+                android:id="@+id/tan"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -1219,6 +1254,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="DATA"
+                android:id="@+id/data"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
                 tools:ignore="ButtonStyle,HardcodedText" />
@@ -1230,6 +1266,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="STAT VAR"
+                android:id="@+id/statVar"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -1242,6 +1279,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="CLEAR DATA"
+                android:id="@+id/clearData"
                 android:textAllCaps="false"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
@@ -1265,6 +1303,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="1-VAR"
+                android:id="@+id/var1"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
                 tools:ignore="ButtonStyle,HardcodedText" />
@@ -1276,6 +1315,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="2-VAR"
+                android:id="@+id/var2"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
                 tools:ignore="ButtonStyle,HardcodedText" />
@@ -1287,6 +1327,7 @@
                 android:backgroundTint="#DFE0DF"
                 android:padding="5dp"
                 android:text="EXIT"
+                android:id="@+id/varexit"
                 android:textColor="#424242"
                 app:cornerRadius="0dp"
                 tools:ignore="ButtonStyle,HardcodedText" />

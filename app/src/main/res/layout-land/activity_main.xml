@@ -21,8 +21,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:orientation="vertical"
-            android:paddingBottom="5dp"
             android:paddingTop="5dp"
+            android:paddingBottom="5dp"
             android:weightSum="5">
 
             <LinearLayout
@@ -36,8 +36,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start|bottom"
-                    android:paddingEnd="5dp"
                     android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
                     android:text=""
                     android:textColor="#424242"
                     android:textSize="25sp" />
@@ -54,26 +54,22 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="end|bottom"
-                    android:paddingEnd="5dp"
                     android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
                     android:text=""
                     android:textColor="#424242"
                     android:textSize="25sp" />
             </LinearLayout>
 
-            <LinearLayout
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:contentDescription="@string/app_logo"
-                    android:src="@drawable/android" />
-
-            </LinearLayout>
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-8008847500238019/7384365722">
+            </com.google.android.gms.ads.AdView>
 
             <!-- Blank Rows -->
 
@@ -83,8 +79,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:visibility="invisible">
 
                 <Button
@@ -149,8 +145,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:visibility="invisible">
 
                 <Button
@@ -217,11 +213,12 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:visibility="gone">
 
                 <Button
+                    android:id="@+id/ans"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -233,6 +230,7 @@
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/abcde"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -245,6 +243,7 @@
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/de"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -256,6 +255,7 @@
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/fracDec"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -267,12 +267,13 @@
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/percentage"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
-                    android:text="K"
+                    android:text="%"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -284,8 +285,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:visibility="gone">
 
                 <Button
@@ -358,11 +359,12 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:visibility="gone">
 
                 <Button
+                    android:id="@+id/dms"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -374,6 +376,7 @@
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/rpr"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -386,6 +389,7 @@
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/rpo"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -397,6 +401,7 @@
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/prx"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -409,6 +414,7 @@
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/pry"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -427,8 +433,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:visibility="gone">
 
                 <Button
@@ -438,6 +444,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="@string/degree"
+                android:id="@+id/degree"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -449,6 +456,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="'"
+                android:id="@+id/minute"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -460,6 +468,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="@string/seconds"
+                android:id="@+id/second"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -471,6 +480,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="ʀ"
+                android:id="@+id/radian"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -482,6 +492,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="Ⓖ"
+                android:id="@+id/gradian"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -495,11 +506,12 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:visibility="gone">
 
                 <Button
+                    android:id="@+id/tenx"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -511,6 +523,7 @@
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/e2x"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -523,6 +536,7 @@
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/sqrt"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -534,18 +548,20 @@
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/xsqrt"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
-                    android:text="x√"
+                    android:text="@string/x_sqrt"
                     android:textAllCaps="false"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/ee"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -564,11 +580,12 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:visibility="gone">
 
                 <Button
+                    android:id="@+id/log"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -580,6 +597,7 @@
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/ln"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -591,6 +609,7 @@
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/xPow2"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -602,6 +621,7 @@
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/tothe"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -613,6 +633,7 @@
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/inv"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -632,66 +653,66 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:visibility="gone">
 
                 <Button
+                    android:id="@+id/a"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="A"
-                android:id="@+id/a"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/b"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="B"
-                android:id="@+id/b"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/c"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="C"
-                android:id="@+id/c"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/d"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="D"
-                android:id="@+id/d"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/f"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="F"
-                android:id="@+id/f"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -703,8 +724,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:visibility="gone">
 
                 <Button
@@ -769,54 +790,54 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:visibility="gone">
 
                 <Button
+                    android:id="@+id/sto"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="STO"
-                android:id="@+id/sto"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/rcl"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="RCL"
-                android:id="@+id/rcl"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/mvar"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="MVAR"
-                android:id="@+id/mvar"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/reset"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="CLRVAR"
-                android:id="@+id/reset"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -830,8 +851,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:visibility="gone">
 
                 <Button
@@ -847,38 +868,38 @@
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/deg"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="DEG"
-                android:id="@+id/deg"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/rad"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="RAD"
-                android:id="@+id/rad"
                     android:textAllCaps="false"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/grad"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="GRAD"
-                android:id="@+id/grad"
                     android:textAllCaps="false"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
@@ -891,8 +912,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:visibility="gone">
 
                 <Button
@@ -901,43 +922,44 @@
                     android:layout_weight="1"
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
-                    android:text="#.##"
+                    android:text="K"
+                    android:id="@+id/k"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/flo"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="FLO"
-                android:id="@+id/flo"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/sci"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="SCI"
-                android:id="@+id/sci"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/eng"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="ENG"
-                android:id="@+id/eng"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -951,8 +973,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:visibility="gone">
 
                 <Button
@@ -1017,11 +1039,12 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:visibility="gone">
 
                 <Button
+                    android:id="@+id/npr"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -1034,6 +1057,7 @@
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/ncr"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -1046,6 +1070,7 @@
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/exclamation"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -1058,6 +1083,7 @@
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/rand"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -1070,6 +1096,7 @@
                     tools:ignore="ButtonStyle,HardcodedText" />
 
                 <Button
+                    android:id="@+id/randi"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -1090,8 +1117,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:visibility="gone">
 
                 <Button
@@ -1101,6 +1128,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="HYP"
+                android:id="@+id/HYP"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -1112,6 +1140,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="asin"
+                android:id="@+id/asin"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -1123,6 +1152,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="acos"
+                android:id="@+id/acos"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -1134,6 +1164,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="atan"
+                android:id="@+id/atan"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -1145,8 +1176,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:visibility="gone">
 
                 <Button
@@ -1156,6 +1187,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="π"
+                android:id="@+id/pi"
                     android:textAllCaps="false"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
@@ -1168,6 +1200,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="sin"
+                android:id="@+id/sin"
                     android:textAllCaps="false"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
@@ -1180,6 +1213,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="cos"
+                android:id="@+id/cos"
                     android:textAllCaps="false"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
@@ -1192,6 +1226,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="tan"
+                android:id="@+id/tan"
                     android:textAllCaps="false"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
@@ -1206,8 +1241,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:visibility="gone">
 
                 <Button
@@ -1217,6 +1252,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="DATA"
+                android:id="@+id/data"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -1228,6 +1264,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="STAT VAR"
+                android:id="@+id/statVar"
                     android:textAllCaps="false"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
@@ -1240,6 +1277,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="CLEAR DATA"
+                android:id="@+id/clearData"
                     android:textAllCaps="false"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
@@ -1252,8 +1290,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:visibility="gone">
 
                 <Button
@@ -1263,6 +1301,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="1-VAR"
+                android:id="@+id/var1"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -1274,6 +1313,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="2-VAR"
+                android:id="@+id/var2"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -1285,6 +1325,7 @@
                     android:backgroundTint="#DFE0DF"
                     android:padding="5dp"
                     android:text="EXIT"
+                android:id="@+id/varexit"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText" />
@@ -1297,8 +1338,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:orientation="vertical"
-            android:paddingBottom="5dp"
             android:paddingTop="5dp"
+            android:paddingBottom="5dp"
             android:weightSum="5">
 
             <!-- OFF to CLR Row -->
@@ -1307,8 +1348,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:weightSum="5">
 
                 <Button
@@ -1381,8 +1422,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:weightSum="5">
 
                 <Button
@@ -1453,8 +1494,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:weightSum="5">
 
                 <Button
@@ -1525,8 +1566,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:weightSum="5">
 
                 <Button
@@ -1548,8 +1589,8 @@
                     android:layout_weight="1"
                     android:backgroundTint="#FA980B"
                     android:padding="5dp"
-                    android:paddingEnd="5dp"
                     android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
                     android:text="1"
                     android:textColor="#424242"
                     app:cornerRadius="0dp"
@@ -1599,8 +1640,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:paddingEnd="5dp"
                 android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:weightSum="5">
 
                 <Button
