@@ -131,6 +131,16 @@
     <string name="comma">,</string>
     <string name="reset">RESET</string>
     <string name="ans">ANS</string>
+    <string name="menu_title_add">Add</string>
+    <string name="menu_title_history">History</string>
+    <string name="menu_title_new">New</string>
+    <string name="menu_title_clear">Clear</string>
+    <string name="menu_title_share">Share</string>
+    <string name="menu_title_solve">Solve</string>
+    <string name="x_neg1">x<sup>-1</sup></string>
+    <string name="_10_x">10<sup>x</sup></string>
+    <string name="eToX">e<sup>x</sup></string>
+    <string name="xTo2">x<sup>2</sup></string>
 
 </resources>
 

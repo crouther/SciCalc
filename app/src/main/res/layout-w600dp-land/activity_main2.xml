@@ -10,40 +10,43 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:weightSum="2"
+        android:weightSum="3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="DisableBaselineAlignment">
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@color/black"
             android:orientation="vertical"
             android:paddingTop="5dp"
             android:paddingBottom="5dp"
-            android:weightSum="5">
+            android:weightSum="10"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:orientation="horizontal"
-                tools:ignore="NestedWeights">
+                android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/request"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="start|bottom"
+
                     android:paddingStart="5dp"
                     android:paddingEnd="5dp"
                     android:text=""
-                    android:textColor="#424242"
-                    android:textSize="25dp"
-                    tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck"/>
+                    android:textColor="@color/white"
+                    android:textSize="25dp" />
             </LinearLayout>
 
             <LinearLayout
@@ -60,9 +63,8 @@
                     android:paddingStart="5dp"
                     android:paddingEnd="5dp"
                     android:text=""
-                    android:textColor="#424242"
-                    android:textSize="25dp"
-                    tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck"/>
+                    android:textColor="@color/white"
+                    android:textSize="25dp" />
             </LinearLayout>
 
             <!-- Blank Rows -->
@@ -81,10 +83,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text=""
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -93,10 +95,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text=""
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -105,10 +107,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text=""
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -117,10 +119,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text=""
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -129,10 +131,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text=""
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -152,10 +154,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text=""
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -164,10 +166,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text=""
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -176,10 +178,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text=""
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -188,10 +190,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text=""
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -200,17 +202,89 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text=""
-                    android:textColor="#424242"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    app:cornerRadius="0dp"
+                    tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
+            </LinearLayout>
+
+            <!-- PROBABILITY Row (Top) -->
+
+            <LinearLayout
+                android:id="@+id/prbRow2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:visibility="gone">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#808080"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    app:cornerRadius="0dp"
+                    tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#808080"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    app:cornerRadius="0dp"
+                    tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#808080"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    app:cornerRadius="0dp"
+                    tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#808080"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    app:cornerRadius="0dp"
+                    tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:backgroundTint="#808080"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
             </LinearLayout>
 
             <!-- Ads Rows -->
-
             <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/adView"
                 android:layout_width="match_parent"
@@ -394,10 +468,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="@string/dms"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -407,11 +481,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="@string/r_pr"
                     android:textAllCaps="false"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -421,10 +495,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="@string/r_p"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -434,11 +508,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="@string/p_rx"
                     android:textAllCaps="false"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -448,11 +522,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="@string/p_ry"
                     android:textAllCaps="false"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -473,10 +547,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="@string/degree"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -486,10 +560,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="'"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -499,10 +573,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="@string/seconds"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -512,10 +586,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="ʀ"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -525,10 +599,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="Ⓖ"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -713,10 +787,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="A"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -726,10 +800,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="B"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -739,10 +813,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="C"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -752,10 +826,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="D"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -765,10 +839,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="F"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -788,10 +862,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text=""
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -800,10 +874,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text=""
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -812,10 +886,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text=""
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -824,10 +898,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text=""
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -836,10 +910,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text=""
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -860,10 +934,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="STO"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -873,10 +947,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="RCL"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -886,10 +960,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="MVAR"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -899,10 +973,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="CLRVAR"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -921,15 +995,15 @@
                 android:visibility="gone">
 
                 <Button
-                    android:id="@+id/draw"
+                    android:id="@+id/basic"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
-                    android:text="DRAW"
+                    android:text="BASIC"
                     android:textAllCaps="false"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -939,11 +1013,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="[ ]"
                     android:textAllCaps="false"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -953,10 +1027,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="DEG"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -966,11 +1040,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="RAD"
                     android:textAllCaps="false"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -980,14 +1054,14 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="GRAD"
                     android:textAllCaps="false"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
-                    tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck,TooManyViews" />
+                    tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
             </LinearLayout>
 
             <LinearLayout
@@ -1005,12 +1079,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="∫"
                     android:textAllCaps="false"
-                    android:textColor="#424242"
-                    android:textSize="18dp"
+                    android:textColor="#fff"
+                    android:textSize="22dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
 
@@ -1019,10 +1093,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="K"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1032,10 +1106,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="FLO"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1045,10 +1119,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="SCI"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1058,87 +1132,16 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="ENG"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
             </LinearLayout>
 
-            <!-- PROBABILITY Rows -->
-
-            <LinearLayout
-                android:id="@+id/prbRow2"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:orientation="horizontal"
-                android:paddingStart="5dp"
-                android:paddingEnd="5dp"
-                android:visibility="gone">
-
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
-                    android:padding="5dp"
-                    android:text=""
-                    android:textColor="#424242"
-                    android:textSize="18dp"
-                    app:cornerRadius="0dp"
-                    tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
-
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
-                    android:padding="5dp"
-                    android:text=""
-                    android:textColor="#424242"
-                    android:textSize="18dp"
-                    app:cornerRadius="0dp"
-                    tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
-
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
-                    android:padding="5dp"
-                    android:text=""
-                    android:textColor="#424242"
-                    android:textSize="18dp"
-                    app:cornerRadius="0dp"
-                    tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
-
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
-                    android:padding="5dp"
-                    android:text=""
-                    android:textColor="#424242"
-                    android:textSize="18dp"
-                    app:cornerRadius="0dp"
-                    tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
-
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
-                    android:padding="5dp"
-                    android:text=""
-                    android:textColor="#424242"
-                    android:textSize="18dp"
-                    app:cornerRadius="0dp"
-                    tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
-            </LinearLayout>
+            <!-- PROBABILITY Row (bottom) -->
 
             <LinearLayout
                 android:id="@+id/prbRow1"
@@ -1155,11 +1158,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="nPr"
                     android:textAllCaps="false"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1169,11 +1172,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="nCr"
                     android:textAllCaps="false"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1183,11 +1186,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="!"
                     android:textAllCaps="false"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1197,11 +1200,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="rand"
                     android:textAllCaps="false"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1211,11 +1214,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="randi"
                     android:textAllCaps="false"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1360,11 +1363,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="HYP"
                     android:textAllCaps="false"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1374,11 +1377,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="asin"
                     android:textAllCaps="false"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1388,11 +1391,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="acos"
                     android:textAllCaps="false"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1402,11 +1405,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="atan"
                     android:textAllCaps="false"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1427,11 +1430,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="π"
                     android:textAllCaps="false"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1441,11 +1444,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="sin"
                     android:textAllCaps="false"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1455,11 +1458,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="cos"
                     android:textAllCaps="false"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1469,11 +1472,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="tan"
                     android:textAllCaps="false"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1496,10 +1499,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="DATA"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1509,11 +1512,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="STAT VAR"
                     android:textAllCaps="false"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1523,11 +1526,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="CLEAR DATA"
                     android:textAllCaps="false"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1548,10 +1551,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="1-VAR"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1561,10 +1564,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="2-VAR"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1574,27 +1577,17 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#DFE0DF"
+                    android:backgroundTint="#808080"
                     android:padding="5dp"
                     android:text="EXIT"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
             </LinearLayout>
 
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:paddingTop="5dp"
-            android:paddingBottom="5dp"
-            android:weightSum="5">
-
             <!-- OFF to CLR Row -->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -1602,15 +1595,14 @@
                 android:orientation="horizontal"
                 android:paddingStart="5dp"
                 android:paddingEnd="5dp"
-                android:weightSum="5"
-                tools:ignore="NestedWeights">
+                android:weightSum="5">
 
                 <Button
                     android:id="@+id/onOff"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:backgroundTint="#000"
+                    android:backgroundTint="#808080"
                     android:gravity="center"
                     android:padding="5dp"
                     android:text="OFF"
@@ -1627,7 +1619,7 @@
                     android:backgroundTint="#FD685B"
                     android:padding="5dp"
                     android:text="MEM"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1640,7 +1632,7 @@
                     android:backgroundTint="#FD685B"
                     android:padding="5dp"
                     android:text="MODE"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1653,7 +1645,7 @@
                     android:backgroundTint="#FD685B"
                     android:padding="5dp"
                     android:text="DEL"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1666,7 +1658,7 @@
                     android:backgroundTint="#FFF7E9"
                     android:padding="5dp"
                     android:text="CLR"
-                    android:textColor="#424242"
+                    android:textColor="@color/black"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1674,6 +1666,7 @@
             </LinearLayout>
 
             <!-- More to ÷ Row -->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -1691,7 +1684,7 @@
                     android:backgroundTint="#FD685B"
                     android:padding="5dp"
                     android:text="MORE"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1704,7 +1697,7 @@
                     android:backgroundTint="#FA980B"
                     android:padding="5dp"
                     android:text="7"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1717,7 +1710,7 @@
                     android:backgroundTint="#FA980B"
                     android:padding="5dp"
                     android:text="8"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1730,7 +1723,7 @@
                     android:backgroundTint="#FA980B"
                     android:padding="5dp"
                     android:text="9"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1743,13 +1736,14 @@
                     android:backgroundTint="#00CD77"
                     android:padding="5dp"
                     android:text="÷"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
             </LinearLayout>
 
             <!-- Parenthesis to * Row -->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -1767,7 +1761,7 @@
                     android:backgroundTint="#FD685B"
                     android:padding="5dp"
                     android:text="("
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1780,7 +1774,7 @@
                     android:backgroundTint="#FA980B"
                     android:padding="5dp"
                     android:text="4"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1793,7 +1787,7 @@
                     android:backgroundTint="#FA980B"
                     android:padding="5dp"
                     android:text="5"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1806,7 +1800,7 @@
                     android:backgroundTint="#FA980B"
                     android:padding="5dp"
                     android:text="6"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1819,7 +1813,7 @@
                     android:backgroundTint="#00CD77"
                     android:padding="5dp"
                     android:text="×"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1827,6 +1821,7 @@
             </LinearLayout>
 
             <!-- Parenthesis to - Row -->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -1844,7 +1839,7 @@
                     android:backgroundTint="#FD685B"
                     android:padding="5dp"
                     android:text=")"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1859,7 +1854,7 @@
                     android:paddingStart="5dp"
                     android:paddingEnd="5dp"
                     android:text="1"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1872,7 +1867,7 @@
                     android:backgroundTint="#FA980B"
                     android:padding="5dp"
                     android:text="2"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1885,7 +1880,7 @@
                     android:backgroundTint="#FA980B"
                     android:padding="5dp"
                     android:text="3"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1898,7 +1893,7 @@
                     android:backgroundTint="#00CD77"
                     android:padding="5dp"
                     android:text="-"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1906,6 +1901,7 @@
             </LinearLayout>
 
             <!-- Equals to + Row -->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -1924,7 +1920,7 @@
                     android:onClick="saveClicked"
                     android:padding="5dp"
                     android:text="="
-                    android:textColor="#424242"
+                    android:textColor="@color/black"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1937,7 +1933,7 @@
                     android:backgroundTint="#FA980B"
                     android:padding="5dp"
                     android:text="0"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1950,7 +1946,7 @@
                     android:backgroundTint="#FA980B"
                     android:padding="5dp"
                     android:text="."
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1963,7 +1959,7 @@
                     android:backgroundTint="#FA980B"
                     android:padding="5dp"
                     android:text="( ⁻ )"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
@@ -1976,12 +1972,36 @@
                     android:backgroundTint="#00CD77"
                     android:padding="5dp"
                     android:text="+"
-                    android:textColor="#424242"
+                    android:textColor="#fff"
                     android:textSize="18dp"
                     app:cornerRadius="0dp"
                     tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck" />
 
             </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.ActionMenuView
+                android:layout_width="match_parent"
+                android:id="@+id/topToolBar"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#fff"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <view
+                android:id="@+id/ScratchPad"
+                class="io.github.calc_basic.MyCanvas"
+                android:background="@color/white"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent" />
 
         </LinearLayout>
 
